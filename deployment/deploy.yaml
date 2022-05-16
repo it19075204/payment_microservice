@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: server-payment-pod
-      image: dilmika4172/shopping-app
+      image: dilmika4172/cluster-1
       ports:
         - containerPort: 5000
