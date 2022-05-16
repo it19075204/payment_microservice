@@ -10,4 +10,4 @@ jobs:
       -name: run shell script
        run: echo commit hash is ${{ steps.vars.outputs.sha_short }}
       -name: Build the Docker image
-       run: docker build . --file Dockerfile --tag my-image-name:${{steps.vars.outputs.sha_short}}
+       run: docker build . --file Dockerfile --tag my-image-name:${{ steps.vars.outputs.sha_short }}
